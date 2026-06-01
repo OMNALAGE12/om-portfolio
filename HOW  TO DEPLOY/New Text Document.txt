@@ -1,0 +1,46 @@
+Step 1 — Configure Git identity
+bashgit config --global user.name "OMNALAGE12"
+git config --global user.email "nalageom1212@gmail.com"
+
+Step 2 — Go to your project folder
+bashcd "C:\Users\nalag\OneDrive\Desktop\om-portfolio"
+
+Step 3 — Initialize Git
+bashgit init
+
+Step 4 — Stage and commit all files
+bashgit add .
+git commit -m "fix: vercel deployment fixes"
+
+Step 5 — Set branch and connect to GitHub
+bashgit branch -M main
+git remote add origin https://github.com/OMNALAGE12/om-portfolio.git
+
+Step 6 — Push to GitHub
+bashgit push -u origin main --force
+
+Step 7 — Login to Vercel
+bashvercel login
+
+Choose Continue with GitHub in the browser and sign in.
+
+
+Step 8 — Deploy to production
+bashvercel --prod
+
+Answer prompts:
+
+Which team? → press Enter
+Link to existing project? → yes
+Pull environment variables? → yes
+
+
+
+Step 9 — Done! Site is live at:
+https://om-portfolio-mocha.vercel.app
+
+For every future update:
+bashgit add .
+git commit -m "your message"
+git push
+Vercel redeploys automatically on every push. ✅
