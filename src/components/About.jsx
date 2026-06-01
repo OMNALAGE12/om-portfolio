@@ -11,7 +11,7 @@ export default function About() {
   return (
     <SectionWrapper id="about">
       <SecLabel>About Me</SecLabel>
-      <SecTitle>Cloud-first data engineer with strong<br/>AWS pipeline experience.</SecTitle>
+      <SecTitle>AWS data engineer with strong<br/>AWS pipeline experience.</SecTitle>
       <SecSub>I work on cloud data engineering projects where the main goal is to ingest data, clean it, transform it, validate it, store it in proper layers, and make it available for analytics and reporting.</SecSub>
       <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fit,minmax(280px,1fr))', gap:20 }}>
         {cards.map(c => (

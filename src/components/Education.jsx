@@ -12,7 +12,7 @@ const educations = [
     borderHover: 'rgba(124,109,255,0.35)',
   },
   {
-    degree: 'Bachelor of Computer Applications (BCA)',
+    degree: 'Bachelor of Computer Applications (BCS)',
     college: 'Gopal Krishna Gokhale College',
     location: 'Shivaji University, Kolhapur',
     score: 'Percentage: 79.12%',
